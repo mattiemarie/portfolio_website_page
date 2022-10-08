@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+  }
+  
+/*Portfolio Webpage Color Palette*/
+:root {
+    --pink: rgba(255, 71, 175, 1);
+    --red: rgba(227, 35, 90, 1);
+    --cream: rgba(255, 242, 208, 1);
+    --yellow: rgba(255, 206, 47, 1);
+    --blue: rgba(66, 164, 215, 1);
+    --teal: rgba(53, 190, 183, 1);
+    --dark_purple: rgba(105, 72, 151, 1);
+    --light_purple: rgba(145, 135, 211, 1);
+    --green: rgba(177, 193, 54, 1);
+  }
+  
+/*Body Text Elements*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--cream);
+    line-height: 1.5;
+    background-color: var(--light_purple);
+  }
+
+/*Heading Margins*/
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+
+/*Paragraph Margin*/
+p {
+    margin: 0;
+  }
+
+/*Header Alignment Styles*/
+header {
+    padding: 15px 6% 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--dark_purple);
+    border-bottom: solid 12px var(--teal);
+  }
+  
+
+/* Header Color - Mattie Marie */
+header h1 {
+    color: var(--cream);
+    padding: 5px 1% 5px 6%;
+    margin: 0;
+    font-size: 55px;
+    font-weight: bolder;
+    line-height: 1;
+  }
+ 
+  
+/* Navigation Bar and its Content*/
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--cream);
+    margin-right: 10px;
+    transition: all 0.25s ease-in;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+nav a:hover {
+    background-size: 100% 100%;
+    color: var(--teal);
+    font-size: 26px;
+  }
+  
+nav a:last-child {
+    margin-right: 0;
+  }
+  
+
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+   
+/*Profile Photo Banner*/
+.profile_banner{
+  padding: 2% 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+  
+.profile-photo {
+  margin-top: 40px;
+  width: 395px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s;
+  
+    }
+
+
+/*Elements for About Me, Work, Contact Me)*/
+.page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  
+.page-section {
+    flex: 0 0 20%;
+    text-align: left;
+    padding-right: 15px;
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  
+.page-section > div {
+    flex: 0 0 77%;
+  }
+  
+.page-section p {
+    margin-bottom: 20px;
+  }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.flex-item {
+    border: 8px solid var(--dark_purple);
+    border-radius: 20px;
+    color: var(--cream);
+    min-height: 200px;
+    max-height: 200px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+/*Feature First Portfolio Item */
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+  }
+  
+.flex-item:hover {
+    color: var(--teal);
+  }
+  
+.flex-item div {
+    background-color: var(--dark_purple);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 8px 10px;
+  }
+  
+.flex-item h3 {
+    font-size: 40px;
+  }
+  
+/*Elements for Contact Section*/
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+.contact address a {
+    color: var(--dark_purple);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+  
+.contact address a:hover {
+    background-size: 100% 88%;
+    color: var(--teal);
+  }
+  
+/*Elements for Footer*/
+footer {
+    padding: 15px 6% 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--dark_purple);
+}
+
+/*Portfolio Images*/
+.horiseon {
+    background-image: url("../assets/images/horiseon.jpg");
+    background-size: cover;
+    background-position: center;
+    position:relative;
+  }
+
+.pre-work {
+    background-image: url("..//assets/images/pre-work.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+.password {
+    background-image: url("..//assets/images/password.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+.web-apis {
+    background-image: url("..//assets/images/web-apis.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+.scheduler {
+    background-image: url("..//assets/images/scheduler.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+/*End Portfolio Images*/
+
+
+/*Media Queries*/
+@media screen and (max-width: 980px) {
+header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+}
+  
+header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    }
+  
+header nav {
+    justify-content: center;
+    }
+  
+.page-section > h2,
+.page-section > div {
+    flex: 0 0 100%;
+    }
+  
+.page-section > h2 {
+    border-right: none;
+    border-bottom: 7px solid var(--teal);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.flex-item, .flex-item:first-child {
+    flex-basis: 100%;
+    }
+  
+.flex-item:first-child {
+    min-height: 150px;
+    }
+  
+.contact address {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+}
