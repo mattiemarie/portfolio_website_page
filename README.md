@@ -60,7 +60,7 @@ The following image shows the web application's appearance and functionality:
 
 
 
-The following link shows the deployed site:
+The following link shows the deployed site: https://mattiemarie.github.io/ucf_coding_bootcamp_challenge_02/
 
 
 # Description
