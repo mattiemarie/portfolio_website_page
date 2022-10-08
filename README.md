@@ -46,6 +46,7 @@ The following image shows the web application's appearance and functionality:
 
 
 
+![image](https://user-images.githubusercontent.com/111001779/194683788-726b8c46-9314-4594-85fc-974d2bc3437c.png)
 
 
 
