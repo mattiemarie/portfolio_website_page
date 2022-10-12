@@ -1,4 +1,6 @@
-## UCF Coding Bootcamp Challenge 02
+## Profile Page
+
+UCF Coding Bootcamp Challenge 02
 
 # User Story
 
